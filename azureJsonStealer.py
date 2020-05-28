@@ -43,3 +43,4 @@ else:
     print ("..........................................................................................................")
     print ("Just inject the 2 json files stored in stolenJson into your .azure folder before using az cli.")
     print ("Thank you for using azureJsonStealer. Have nice day!")
+    print ("==========================================================================================================")
